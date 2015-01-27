@@ -1,0 +1,126 @@
+.edit-breakdown-sidebar {
+	width: 20%;
+	float: left;
+	height: 100%;
+	border-right: 2px solid orange;
+}
+
+h1 {
+	text-align: center;
+	background-color: #38434F;
+	color: white;
+}
+
+.odk {
+	width: 100%;
+	float: left;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#odk-options button {
+	width: 30%;
+	border-color: orange;
+	background-color: white;
+}
+
+.dn {
+	width: 100%;
+	float: left;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#dn-options button {
+	width: 22%;
+	border-color: orange;
+	background-color: white;
+}
+
+.dist {
+	float: left;
+	width: 25%;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.ydline {
+	float: left;
+	width: 25%;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.hash {
+	float: left;
+	width: 45%;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.playtype {
+	float: left;
+	width: 35%;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.result {
+	float: left;
+	width: 30%;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.gnls {
+	float: left;
+	width: 25%;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.off-form {
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#off-form-options select {
+	width: 75%;
+	text-align: center;
+} 
+
+.off-play {
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#off-play-options select {
+	width: 75%;
+	text-align: center;
+} 
+
+.playdir {
+	float: left;
+	text-align: center;
+	width: 35%;
+}
+
+.offstr {
+	float: left;
+	text-align: center;
+	width: 35%;
+}
+
+.gap {
+	float: left;
+	text-align: center;
+	width: 20%;
+}
+
+
+
+

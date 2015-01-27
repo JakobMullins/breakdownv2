@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Edit Breakdown</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./breakdownV2.css">
+</head>
+<body>
+	<div class="breakdown-header">
+    		<h1>Edit Breakdown</h1>
+    </div>
+    <div class="edit-breakdown-sidebar">
+    	<div class="odk">
+    		<div id="odk-options">
+    			<button type="button">O</button>
+    			<button class="button">D</button>
+    			<button type="button">K</button>
+    		</div>
+    	</div>
+    	<div class="dn">
+    		<label id="column-name">DN</label>
+    		<div id="dn-options">
+    			<button type="button">1</button>
+    			<button type="button">2</button>
+    			<button type="button">3</button>
+    			<button type="button">4</button>
+    		</div>
+    	</div>
+    	<div class="dist">
+    		<label id="column-name">DIST</label>
+    		<div id="dist-options">
+    			<select name="DIST">
+    				<option value=""></option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+				</select>
+			</div>
+		</div>
+		<div class="ydline">
+			<label id="column-name">YD LINE</label>
+			<div id="ydline-options">
+				<select name="YDLINE">
+					<option value=""></option>
+					<option values="-49">-49</option>
+				</select>
+			</div>
+		</div>
+		<div class="hash">
+    		<label id="column-name">HASH</label>
+    		<div id="hash-options">
+    			<button type="button">L</button>
+    			<button type="button">R</button>
+    			<button type="button">M</button>
+    		</div>
+    	</div>
+    	<div class=off-form>
+    		<label id="column-name">OFF FORM</label>
+    		<div id="off-form-options">
+				<select name="OFF FORM">
+					<option values="" selected></option>
+					<option values="ACE">-ACE</option>
+					<option values="TRIPS">-TRIPS</option>
+					<option values="DOUBLES">-DOUBLES</option>
+					<option values="FALCON">-FALCON</option>
+					<option values="WINGT">-WING T</option>
+				</select>
+			</div>
+    	</div>
+    	<div class=off-form>
+    		<label id="column-name">OFF PLAY</label>
+    		<div id="off-play-options">
+				<select name="OFF PLAY">
+					<option values="" selected></option>
+					<option values="22 DIVE">-22 DIVE</option>
+					<option values="28 SWEEP">-28 SWEEP</option>
+					<option values="TRIPLE OPTION">-TRIPLE OPTION</option>
+					<option values="DOUBLE OUTS">-DOUBLE OUTS</option>
+					<option values="GO">-GO</option>
+				</select>
+			</div>
+    	</div>
+		<div class="playtype">
+    		<label id="column-name">PLAY TYPE</label>
+    		<div id="playtype-options">
+    			<select name="PLAY TYPE">
+					<option value="RUN">RUN</option>
+					<option value="PASS">PASS</option>
+				</select>
+			</div>
+		</div>
+		<div class="result">
+    		<label id="column-name">RESULT</label>
+    		<div id="result-options">
+    			<select name="RESULT">
+					<option value="COMPLETE PASS">RUN</option>
+					<option value="INCOMPLETE PASS">PASS</option>
+					<option value="RUSH">RUSH</option>
+					<option value="TD">TD</option>
+					<option value="Penalty">PENALTY</option>
+				</select>
+			</div>
+		</div>
+		<div class="gnls">
+    		<label id="column-name">GN/LS</label>
+    		<div id="gn/ls-options">
+    			<select name="GNLS">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+				</select>
+			</div>
+		</div>
+		<div class="playdir">
+    		<label id="column-name">PLAY DIR</label>
+    		<div id="play-dir-options">
+    			<button type="button">L</button>
+    			<button type="button">R</button>
+    		</div>
+    	</div>
+    	<div class="gap">
+    		<label id="column-name">GAP</label>
+    		<div id="gap-options">
+    			<select name="GAP">
+					<option value=""></option>
+					<option value="A">A</option>
+					<option value="B">B</option>
+					<option value="C">C</option>
+					<option value="D">D</option>
+					<option value="E">E</option>
+				</select>
+			</div>
+		</div>
+		<div class="offstr">
+    		<label id="column-name">OFF STR</label>
+    		<div id="off-str-options">
+    			<button type="button">L</button>
+    			<button type="button">R</button>
+    			<button type="button">BAL</button>
+    		</div>
+    	</div>
+	</div>
+	<div class="video">
+<!-- 		<img src="GO.png" width=79% height=100%>
+ -->		<video width=79% height=100% controls>
+			<source src="reverse.mp4" type="video/mp4">
+		</video>
+	</div>
+</body>
+</html>
