@@ -8,13 +8,13 @@
 </head>
 <body>
 	<div class="breakdown-header">
-    		<h1>Edit Breakdown</h1>
+    		<h1>EDIT BREAKDOWN</h1>
     </div>
     <div class="edit-breakdown-sidebar">
     	<div class="odk">
     		<div id="odk-options">
     			<button type="button">O</button>
-    			<button class="button">D</button>
+    			<button type="button">D</button>
     			<button type="button">K</button>
     		</div>
     	</div>
@@ -90,17 +90,22 @@
     	</div>
 		<div class="playtype">
     		<label id="column-name">PLAY TYPE</label>
-    		<div id="playtype-options">
+    		<!-- <div id="playtype-options">
     			<select name="PLAY TYPE">
 					<option value="RUN">RUN</option>
 					<option value="PASS">PASS</option>
 				</select>
-			</div>
+			</div> -->
+			<div id="play-type-options">
+    			<button type="button">RUN</button>
+    			<button type="button">PASS</button>
+    		</div>
 		</div>
 		<div class="result">
     		<label id="column-name">RESULT</label>
     		<div id="result-options">
     			<select name="RESULT">
+    				<option value=""></option>
 					<option value="COMPLETE PASS">RUN</option>
 					<option value="INCOMPLETE PASS">PASS</option>
 					<option value="RUSH">RUSH</option>
@@ -113,6 +118,7 @@
     		<label id="column-name">GN/LS</label>
     		<div id="gn/ls-options">
     			<select name="GNLS">
+    				<option value=""></option>
 					<option value="1">1</option>
 					<option value="2">2</option>
 					<option value="3">3</option>
@@ -122,7 +128,7 @@
 					<option value="7">7</option>
 					<option value="8">8</option>
 					<option value="9">9</option>
-					<option value="10" selected>10</option>
+					<option value="10">10</option>
 				</select>
 			</div>
 		</div>
