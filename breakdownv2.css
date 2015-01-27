@@ -2,11 +2,12 @@
 	width: 20%;
 	float: left;
 	height: 100%;
-	border-right: 2px solid orange;
-}
+/*	border-right: 2px solid orange;
+*/}
 
 .breakdown-header {
 	height: 64px;
+	width: 100%;
 }
 
 h1 {
@@ -26,6 +27,7 @@ h1 {
 
 * select {
 	border-color: orange;
+	background-color: #E8E8E8;
 }
 
 .odk {
@@ -147,6 +149,8 @@ h1 {
 	width: 100%;
 	float: left;
 	text-align: center;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #38434F;
 }
 
 .group3 label {
@@ -169,6 +173,33 @@ h1 {
 	float: left;
 	text-align: center;
 	width: 20%;
+}
+
+.stats-section {
+	float: left;
+	width: 100%;
+	color: #38434F;
+	text-align: center;
+}
+
+.rusher {
+	padding-bottom: 20px;
+}
+
+.tackler-1 {
+	width: 50%;
+	float: left;
+}
+
+.tackler-2 {
+	width: 50%;
+	float: left;
+}
+
+.video {
+	border-left: 2px solid orange;
+	border-bottom: 2px solid orange;
+	border-right: 2px solid orange;
 }
 
 
