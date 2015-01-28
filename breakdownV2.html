@@ -11,9 +11,14 @@
     		<h1>EDIT BREAKDOWN</h1>
     </div>
     <div class="edit-breakdown-sidebar">
+    	<div class="breakdown-nav">
+	    	<img class="arrow-left" src="previous.svg">
+	    	<p class="clip-number">CLIP 69/150</p>
+	    	<img class="arrow-right" src="next.svg">
+    	</div>
     	<div class="odk">
     		<div id="odk-options">
-    			<button type="button">O</button>
+    			<button type="button" onclick=select()>O</button>
     			<button type="button">D</button>
     			<button type="button">K</button>
     		</div>
@@ -165,10 +170,14 @@
 	    			<button type="button">BAL</button>
 	    		</div>
 	    	</div>
+	    	<div class="breakdown-edit">
+	    		<img class="filter" src="filter.svg">
+	    		<img class="modify" src="modify.svg">
+    		</div>
     	</div>
     	<div class="stats-section">
     		<h3>PLAYER STATS</h3>
-    		<div class="rusher">
+    		<!-- <div class="rusher">
 	    		<label id="column-name">RUSHER</label>
 	    		<div id="rusher-options">
 	    			<select name="GAP">
@@ -206,7 +215,7 @@
 							<option value="44">#44</option>
 						</select>
 					</div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 	<div class="video">

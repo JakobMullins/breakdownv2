@@ -5,6 +5,54 @@
 /*	border-right: 2px solid orange;
 */}
 
+.breakdown-nav {
+	width: 100%;
+	height: 55px;
+}
+
+.arrow-left {
+	width: 15%;
+	float: left;
+	padding-left: 10px;
+	padding-right: 5px;
+}
+
+.clip-number {
+	float: left;
+	text-align: center;
+	font-size: 18px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 50%;
+}
+
+.arrow-right {
+	width: 15%;
+	float: left;
+	padding-right: 10px;
+}
+
+.breakdown-edit {
+	width: 100%;
+	height: 10%;
+	float: left;
+}
+
+.breakdown-edit img {
+	width: 8%;
+	float: center;
+}
+
+/*.filter {
+	width: 8%;
+	float: center;
+}
+
+.modify {
+	width: 8%;
+	float: center;
+}*/
+
 .breakdown-header {
 	height: 64px;
 	width: 100%;
@@ -167,12 +215,14 @@ h1 {
 	float: left;
 	text-align: center;
 	width: 45%;
+
 }
 
 .gap {
 	float: left;
 	text-align: center;
 	width: 20%;
+	padding-bottom: 20px;
 }
 
 .stats-section {
@@ -183,13 +233,14 @@ h1 {
 }
 
 .rusher {
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 .tackler-1 {
 	width: 50%;
 	float: left;
-}
+/*	padding-bottom: 2%
+*/}
 
 .tackler-2 {
 	width: 50%;
