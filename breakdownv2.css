@@ -234,17 +234,70 @@ h1 {
 
 .rusher {
 	padding-bottom: 10px;
+	width: 33%;
+	float: left;
+	padding-right: 2%;
+	padding-left: 3%;
+	padding-bottom: 5%;
+}
+
+.rusher select {
+	width: 100%;
 }
 
 .tackler-1 {
-	width: 50%;
+	width: 30%;
 	float: left;
-/*	padding-bottom: 2%
-*/}
+	padding-bottom: 5%
+}
 
 .tackler-2 {
+	width: 30%;
+	float: left;
+	padding-bottom: 5%;
+	padding-right: 2%;
+}
+
+.passer {
+	width: 30%;
+	float: left;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.passer select {
+	width: 100%;
+	border-bottom: 3%;
+}
+
+.receiver {
+	width: 30%;
+	float: left;
+	padding-right: 10%;
+	padding-bottom: 2%;
+}
+
+.receiver select {
+	width: 100%;
+}
+
+.tackler1 {
 	width: 50%;
 	float: left;
+	padding-bottom: 2%;
+}
+
+.tackler2 {
+	width: 30%;
+	float: left;
+	padding-bottom: 2%;
+}
+
+.exit {
+	float: center;
+	background-color: #4E5D6C;
+	color: white;
+	font-size: 18px;
 }
 
 .video {
